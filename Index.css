@@ -2,7 +2,7 @@ body .table-container {
   width: 80%;
   margin: 20px auto;
   border: 1px solid #ddd;
-  overflow: auto;
+  overflow-y: auto;
   max-height: 450px;
 }
 body .table-container table {
