@@ -1,0 +1,26 @@
+body {
+  .table-container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    overflow: auto;
+    max-height: 450px;
+    table {
+      width: 100%;
+      thead {
+        tr {
+          background-color: #333;
+          color: #fff;
+          position: sticky;
+          top: 0;
+          z-index: 2;
+        }
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+    }
+  }
+}
